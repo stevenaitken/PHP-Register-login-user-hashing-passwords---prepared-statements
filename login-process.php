@@ -1,5 +1,5 @@
 <?php 
-session_start();
+
 include('includes/dbconx.php');
 include('includes/errors.php');
 
@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
 
    
        if(password_verify($Userpassword,$password)){
-			$_SESSION['username'] = $username;
+			
 
 			header('location:admin.php');
 			} // end  if
