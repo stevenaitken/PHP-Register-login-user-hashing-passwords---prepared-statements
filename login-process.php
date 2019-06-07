@@ -1,5 +1,5 @@
 <?php 
-
+//this is a comment
 include('includes/dbconx.php');
 include('includes/errors.php');
 
